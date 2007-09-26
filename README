@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2030
+
+For Vi, Vim, MacVim or GVim users, there is a simple way to manage your blog posts. Under Vim environment, you can create new blog posts, edit, list all categories, list older posts, delete posts, turn Published into Draft posts, and vice-versa.
+It is out-of-the-box working for Wordpress, but very easilly, you can make it manage Blogger, MovableType, TextPattern, etc, platforms. Its the beauty of Open Source software. Study the code, change it, and use it. 
+
+You can see some screenshots on Flickr:
+http://www.flickr.com/search/?q=vim&w=36867590@N00
+
+homepage: http://blog.tquadrado.com/?page_id=146
