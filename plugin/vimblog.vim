@@ -13,7 +13,7 @@
 "     function bellow. 
 "   - make sure you have xmlrpc.php file in your / blog dir. If not, 
 "     change the @xml variable to find it.
-"   - testing: open vim, ando do 
+"   - testing: open vim, and do 
 "       :Blog rp 
 "     to get your recent 10 posts.
 "   - Questions ? e-mail please ;)
@@ -21,15 +21,17 @@
 
 
 if !has('ruby')
-    s:ErrMsg( "Error: Required vim compiled with +ruby" )
+    echo "---------------------------------------"
+    echo "Error: Required vim compiled with +ruby"
+    echo "---------------------------------------"
     finish
 endif
 
 " Vim syntax functions
 " Language:     wordpress_vim
 " Maintainer:   pedro mg <pedro.mota [at] gmail.com>
-" Version:      1.0
-" Last Change:  2007 Mar 02
+" Version:      1.1
+" Last Change:  2008 Apr 10
 " Remark:       Simple functions for vim blogging bundle in ruby.
 " Remark:       Please, if you fine tune this code, send it back  
 " Remark:       for version upgrade ;)
@@ -98,8 +100,8 @@ ruby <<EOF
       @login = "" # insert your login here
       @passwd = "" # insert your password here
       @site = "" # insert your blog url here, but do not use http://
-      @xml = "/xmlrpc.php"
-      @port = 80
+      @xml = "/xmlrpc.php" # change if necessary
+      @port = 80 # change if necessary
       @blog_id = 0
       @user =  1
     end
